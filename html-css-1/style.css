@@ -1,0 +1,99 @@
+h1 {
+  margin-left: 30px;
+  color: white;
+}
+header {
+  height: 80%;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+header > div {
+  height: 100%;
+}
+
+header ul {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  list-style: none;
+  align-items: flex-end;
+  margin: 0 20px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: fantasy;
+}
+body {
+  width: 75vw;
+  max-width: 500;
+  margin: 0 auto;
+}
+#square1 {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  align-items: center;
+  color: gold;
+  font-size: 2em;
+  font-family: fantasy;
+  text-align: center;
+}
+#square1 h1 {
+  color: gold;
+}
+#green-squares {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.square {
+  height: 180px;
+  width: 180px;
+  background-color: aquamarine;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+#golden-rectangles {
+  display: flex;
+  justify-content: space-around;
+}
+.rectangle {
+  height: 150px;
+  width: 300px;
+  background-color: orange;
+  margin-top: 30px;
+}
+#text-pic {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#text {
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#image {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+img {
+  height: 150px;
+  width: 180px;
+}
+#last {
+  width: 100%;
+  background-color: black;
+  height: 80px;
+  margin-top: 25px;
+}
